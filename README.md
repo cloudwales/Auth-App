@@ -9,18 +9,18 @@ To install:
 			<li>Configure your secret key in the config file and setup your datatbase</li>
 		</ul>
 
-		<br/>
+
 		<h3>Removing index.php</h3>
-		<p>To remove the index.php from the address bar:</p>
+		To remove the index.php from the address bar:
 		<code>edit: application/config/config.php</code>
-		<p>Change:</p>
+		Change:
 		<code> $config['index_page'] = 'index.php'; </code><p>To:</p><code>$config['index_page'] = ''; </code>
-		<p>Then rename the:</p>
+		Then rename the:</p>
 		<code>htaccess.txt to .htaccess</code>
-		<p><small>You may need to edit the htacces file to suit your needs</small></p>
+		<small>You may need to edit the htacces file to suit your needs</small>
 		
-		<br/>
-		<h3>The admin</h3>
-		<p>To login to the admin page please click <a href="<?php echo base_url('index.php/admin');?>">Here</a>.</p>
-		<p><strong>Username:</strong> admin@admin.com</p>
-		<p><strong>Password:</strong> admin</p>
+		
+		The admin</h3>
+		To login to the admin page please click <a href="<?php echo base_url('index.php/admin');?>">Here</a>.
+		<strong>Username:</strong> admin@admin.com
+		<strong>Password:</strong> admin
