@@ -13,10 +13,10 @@ To install:
 <h3>Removing index.php</h3>
 To remove the index.php from the address bar:
 <code>edit: application/config/config.php</code>
-<br/>Change:
+<br/><br/>Change:
 <code> $config['index\_page'] = 'index.php'; </code>
-<br/>To:<code>$config['index_page'] = ''; </code>
-T<br/>hen rename the:
+<br/><br/>To:<code>$config['index_page'] = ''; </code>
+<br/><br/>Then rename the:
 <code>htaccess.txt to .htaccess</code>
 <small>You may need to edit the htacces file to suit your needs</small>
 
