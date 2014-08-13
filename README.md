@@ -13,14 +13,14 @@ To install:
 <h3>Removing index.php</h3>
 To remove the index.php from the address bar:
 <code>edit: application/config/config.php</code>
-Change:
-<code> $config['index_page'] = 'index.php'; </code><p>To:</p><code>$config['index_page'] = ''; </code>
-Then rename the:</p>
+<br/>Change:
+<code> $config['index\_page'] = 'index.php'; </code><p>To:</p><code>$config['index_page'] = ''; </code>
+Then rename the:
 <code>htaccess.txt to .htaccess</code>
 <small>You may need to edit the htacces file to suit your needs</small>
 
 		
-The admin</h3>
-To login to the admin page please click <a href="<?php echo base_url('index.php/admin');?>">Here</a>.
-<strong>Username:</strong> admin@admin.com
+<h3>The admin</h3>
+To login to the admin page visit http://www.your-domain.com/index.php/admin <br/>
+<strong>Username:</strong> admin@admin.com<br/>
 <strong>Password:</strong> admin
