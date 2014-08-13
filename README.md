@@ -1,16 +1,14 @@
 <h1>Welcome to CW Auth - Based on the Codeigniter Framework!</h1>
-
-	<div id="body">
-		<p>CW Auth is a simple auth app created for you to play around with and modify as needed. It also gives you the perfect starting point for a project.</p>
+CW Auth is a simple auth app created for you to play around with and modify as needed. It also gives you the perfect starting point for a project.
 		
-		<h3>Installation</h3>
-		<p>To install:
+<h3>Installation</h3>
+To install:
 		<ul>
 			<li>Upload all the files to your directory</li>
 			<li>Create the database and upload the db file</li>
 			<li>Configure your secret key in the config file and setup your datatbase</li>
 		</ul>
-		</p>
+
 		<br/>
 		<h3>Removing index.php</h3>
 		<p>To remove the index.php from the address bar:</p>
